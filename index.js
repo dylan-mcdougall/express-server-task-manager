@@ -1,12 +1,12 @@
 // Create functionality for the task interface
 // Add task         Sort options
 
-const addTask = () => {
-    let addButton = document.getElementById('add-task');
-    
-}
+// const addTask = () => {
+//     let addButton = document.getElementById('add-task');
+
+// }
 
 
-window.addEventListener("DOMContentLoaded", () => {
+// window.addEventListener("DOMContentLoaded", () => {
     
-})
+// })
