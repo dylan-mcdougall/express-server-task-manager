@@ -4,6 +4,26 @@ body {
     font-size: 16px;
 }
 
+.list-field {
+    border: 2px gray solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-field li {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+
+#completed {
+    border-radius: 50%;
+}
+
 .modal {
     display: none;
     position: absolute;
