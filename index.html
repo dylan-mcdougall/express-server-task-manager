@@ -23,6 +23,7 @@
             <div class="flow-control">
                 <h2>Create a new Task!</h2>
             </div>
+            <p id="error-message">Please fill out every parameter</p>
             <input id="task-name" type="text" placeholder="Task Name">
             <input id="task-category" type="text" placeholder="Category">
             <button id="close">X</button>
@@ -35,7 +36,7 @@
                 <option id="monthly">Monthly</option>
                 <option id="semi-monthly">Every other month</option>
             </select>
-            <input id="due-date" type="date">
+            <input id="due-date" type="date" placeholder="Date (optional)">
             <select id="priority-level">
                 <option id="select">Priority Level</option>
                 <option id="highest">Highest</option>
@@ -44,6 +45,7 @@
                 <option id="low">Low</option>
                 <option id="lowest">Lowest</option>
             </select>
+            <button id="submit">Submit Task</button>
         </div>
     </div>
 </body>
